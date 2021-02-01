@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\T-Gamer\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\T-Gamer\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Tetris.509916852.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\Tetris" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Controllers" t="Include">
+            <e p="AudioController.cs" t="Include" />
+            <e p="CameraController.cs" t="Include" />
+            <e p="ColorController.cs" t="Include" />
+            <e p="GameController.cs" t="Include" />
+            <e p="ModeController.cs" t="Include" />
+            <e p="NextController.cs" t="Include" />
+            <e p="PieceController.cs" t="Include" />
+            <e p="PreviewController.cs" t="Include" />
+            <e p="ScoreController.cs" t="Include" />
+            <e p="TimeController.cs" t="Include" />
+          </e>
+          <e p="Extensions.cs" t="Include" />
+          <e p="Interfaces" t="Include">
+            <e p="IReset.cs" t="Include" />
+          </e>
+          <e p="Piece.cs" t="Include" />
+          <e p="TimeSettings.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Tetris.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
