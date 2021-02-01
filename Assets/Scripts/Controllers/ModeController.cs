@@ -53,7 +53,6 @@ public class ModeController : MonoBehaviour
     
     private void ConfigMode()
     {
-        print(mode);
         if (mode == Mode.NORMAL)
         {
             normalText.color = normalColor;

@@ -45,7 +45,6 @@ public class PreviewController : MonoBehaviour, IReset
     private void UpdatePreview()
     {
         int distanceToTouch = GameController.instance.DistanceToTouch(currentPiece.GetPiecesUnderneath());
-        print(distanceToTouch);
         for (int i = 0; i < previewParts.Length; ++i)
         {
             previewParts[i].position = currentPiece.parts[i].position + Vector3Int.down * distanceToTouch;
