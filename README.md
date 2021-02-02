@@ -1,5 +1,7 @@
 # Galaxy-Tetris
 
+![Galaxy Tetris](https://imgur.com/a/BASGyeI)
+
 ### Build
 
 A build está na pasta `Build Windows`.
@@ -12,7 +14,7 @@ A build está na pasta `Build Windows`.
   - A roda do mouse pode ser usada para dar zoom in/out.
   - Segurar a roda do mouse para transladar a câmera.
   - Segurar botão direito do mouse para rotacionar a câmera.
-- segurar SPACE acelera o jogo, fazendo as peças caírem mais rápido. 
+- Segurar SPACE acelera o jogo, fazendo as peças caírem mais rápido. 
   
 - Os eixos são representados por:
   - X: seta vermelha.
