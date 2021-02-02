@@ -1,6 +1,6 @@
 # Galaxy-Tetris
 
-![Galaxy Tetris](https://imgur.com/a/BASGyeI)
+![Galaxy Tetris](https://i.imgur.com/HYwfwog.png)
 
 ### Build
 
