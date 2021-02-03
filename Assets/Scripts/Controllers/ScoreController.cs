@@ -33,7 +33,7 @@ public class ScoreController : MonoBehaviour, IReset
 
     public void AddScore()
     {
-        currentScore++;
+        currentScore += ModeController.instance.GetPointMultiplier();
         scoreText.text = $"score: {currentScore}";
         gameoverScoreText.text = $"score: {currentScore}";
     }

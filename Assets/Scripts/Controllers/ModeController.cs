@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class ModeController : MonoBehaviour
 {
+
+    public static ModeController instance;
     Mode mode
     {
         get => IntToMode(PlayerPrefs.GetInt("Mode", 0));
@@ -26,6 +28,12 @@ public class ModeController : MonoBehaviour
     public TimeSettings settingsNormal;
     public TimeSettings settingsHard;
     public TimeSettings settingsImpossible;
+
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     private void Start()
     {
@@ -71,6 +79,13 @@ public class ModeController : MonoBehaviour
             normalText.color = hardText.color = Color.white;
             TimeController.instance.settings = settingsImpossible;
         }
+    }
+    
+    public int GetPointMultiplier()
+    {
+        if (mode == Mode.NORMAL) return 1;
+        if (mode == Mode.HARD) return 2;
+        return 3;
     }
 }
 
