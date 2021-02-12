@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5da369a9-ee76-49c7-b232-811bda4d7419" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tetris/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tetris/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tetris/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tetris/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/AudioController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/AudioController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/GameController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/ModeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/ModeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/NextController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/NextController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/PieceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/PieceController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/PreviewController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/PreviewController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/ScoreController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/ScoreController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/TimeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/TimeController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +32,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/PieceController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/TimeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/ColorController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/ScoreController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/NextController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -58,14 +64,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/AudioController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/ColorController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Piece.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Extensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/NextController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/PieceController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/PreviewController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/AudioController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/TimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/ScoreController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/PieceController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/NextController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/ModeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SingletonMonoBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/PreviewController.cs" />
       </list>
     </option>
   </component>
@@ -121,6 +130,7 @@
       <workItem from="1612115016989" duration="16150000" />
       <workItem from="1612183587990" duration="17041000" />
       <workItem from="1612313392084" duration="245000" />
+      <workItem from="1613139211372" duration="1449000" />
     </task>
     <servers />
   </component>

@@ -1,18 +1,11 @@
 ﻿using UnityEngine;
 
-public class AudioController : MonoBehaviour
+public class AudioController : SingletonMonoBehaviour<AudioController>
 {
-
-    public static AudioController instance;
     public AudioClip scoreClip;
     public AudioClip loseClip;
 
     public AudioSource sfxSource;
-
-    private void Awake()
-    {
-        instance = this;
-    }
 
     public void ScoreSound()
     {

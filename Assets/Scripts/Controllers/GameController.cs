@@ -3,9 +3,8 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class GameController : MonoBehaviour, IReset
+public class GameController : SingletonMonoBehaviour<GameController>, IReset
 {
-    public static GameController instance;
     
     [Header("Game Settings")]
     public bool isPlaying;
@@ -21,11 +20,6 @@ public class GameController : MonoBehaviour, IReset
     private int nextPieceID;
     private float height = 17;
     private readonly Dictionary<(int, int, int), Transform> matrix = new Dictionary<(int, int, int), Transform>();
-
-    private void Awake()
-    {
-        instance = this;
-    }
 
     void Start()
     {

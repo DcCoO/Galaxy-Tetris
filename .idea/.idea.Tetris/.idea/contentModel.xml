@@ -24,6 +24,7 @@
             <e p="IReset.cs" t="Include" />
           </e>
           <e p="Piece.cs" t="Include" />
+          <e p="SingletonMonoBehaviour.cs" t="Include" />
           <e p="TimeSettings.cs" t="Include" />
         </e>
       </e>

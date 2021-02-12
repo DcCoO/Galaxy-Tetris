@@ -1,20 +1,13 @@
 ﻿using UnityEngine;
 
-public class PreviewController : MonoBehaviour, IReset
+public class PreviewController : SingletonMonoBehaviour<PreviewController>, IReset
 {
-
-    public static PreviewController instance;
     private bool isPreviewing;
     private Piece currentPiece;
     public Transform previewParent;
 
     private Transform[] previewParts;
     private static readonly int Color = Shader.PropertyToID("_Color");
-
-    private void Awake()
-    {
-        instance = this;
-    }
     
     void Update()
     {

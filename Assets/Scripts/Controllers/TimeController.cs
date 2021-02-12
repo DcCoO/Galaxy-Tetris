@@ -1,10 +1,8 @@
 ﻿using System;
 using UnityEngine;
 
-public class TimeController : MonoBehaviour, IReset
+public class TimeController : SingletonMonoBehaviour<TimeController>, IReset
 {
-    public static TimeController instance;
-
     public event Action onTick;
     
     public TimeSettings settings;
@@ -14,10 +12,6 @@ public class TimeController : MonoBehaviour, IReset
     private float minMaxInterval;
 
     private bool isPlaying;
-    void Awake()
-    {
-        instance = this;
-    }
 
     void Start()
     {

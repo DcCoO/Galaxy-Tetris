@@ -1,14 +1,8 @@
 ﻿using UnityEngine;
 
-public class ColorController : MonoBehaviour
+public class ColorController : SingletonMonoBehaviour<ColorController>
 {
-    private static ColorController instance;
     public Color[] pieceColor;
-
-    private void Awake()
-    {
-        instance = this;
-    }
 
     public static Color GetPieceColor(int index)
     {

@@ -1,16 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class NextController : MonoBehaviour, IReset
+public class NextController : SingletonMonoBehaviour<NextController>, IReset
 {
-    public static NextController instance;
-
     public Sprite[] sprites;
     public Image nextImage;
-    private void Awake()
-    {
-        instance = this;
-    }
 
     private void Start()
     {

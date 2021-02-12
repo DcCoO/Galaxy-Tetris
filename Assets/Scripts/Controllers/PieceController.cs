@@ -1,17 +1,11 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class PieceController : MonoBehaviour, IReset
+public class PieceController : SingletonMonoBehaviour<PieceController>, IReset
 {
-    public static PieceController instance;
     
     private Piece currentPiece;
     private bool isMoving;
-
-    private void Awake()
-    {
-        instance = this;
-    }
 
     void Start()
     {

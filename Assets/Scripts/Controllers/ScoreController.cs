@@ -1,20 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class ScoreController : MonoBehaviour, IReset
+public class ScoreController : SingletonMonoBehaviour<ScoreController>, IReset
 {
-    public static ScoreController instance;
     
     public Text scoreText;
     public Text gameoverScoreText;
     public Text highscoreText;
 
     private int currentScore;
-
-    private void Awake()
-    {
-        instance = this;
-    }
 
     void Start()
     {

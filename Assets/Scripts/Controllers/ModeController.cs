@@ -2,10 +2,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ModeController : MonoBehaviour
-{
-
-    public static ModeController instance;
+public class ModeController : SingletonMonoBehaviour<ModeController>
+{    
     Mode mode
     {
         get => IntToMode(PlayerPrefs.GetInt("Mode", 0));
@@ -28,12 +26,6 @@ public class ModeController : MonoBehaviour
     public TimeSettings settingsNormal;
     public TimeSettings settingsHard;
     public TimeSettings settingsImpossible;
-
-
-    private void Awake()
-    {
-        instance = this;
-    }
 
     private void Start()
     {
